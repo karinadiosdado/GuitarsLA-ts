@@ -7,7 +7,7 @@
 
 **GuitarsLA** es una aplicación de comercio electrónico (e-commerce) de página única (SPA) desarrollada con React y TypeScript. Su propósito es presentar un catálogo de guitarras eléctricas y permitir al usuario gestionar un carrito de compras interactivo, con persistencia de datos en el navegador entre sesiones.
 
-**Problema que resuelve:** Simula el flujo completo de selección y gestión de productos en un carrito — agregar artículos, controlar cantidades (mínimo 1, máximo 5 por producto), eliminar productos individuales, vaciar el carrito y consultar el total a pagar — todo sin necesidad de un backend, aprovechando `localStorage` como mecanismo de persistencia.
+**Problema que resuelve:** Simula el flujo completo de selección y gestión de productos en un carrito  agregar artículos, controlar cantidades (mínimo 1, máximo 5 por producto), eliminar productos individuales, vaciar el carrito y consultar el total a pagar  todo sin necesidad de un backend, aprovechando `localStorage` como mecanismo de persistencia.
 
 ### Funcionalidades principales
 
