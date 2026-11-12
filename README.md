@@ -437,4 +437,34 @@ GuitarsLA-ts/
 
 ---
 
+##  2. Frontend (`GuitarsLA-ts`)
+
+El frontend está desarrollado en React, TypeScript y Vite.
+
+### 2.1 Navegar al directorio del Frontend
+Abre una **segunda terminal** y dirígete a la carpeta del cliente:
+```bash
+cd GuitarsLA-ts
+```
+
+### 2.2 Instalar dependencias
+```bash
+npm install
+```
+
+### 2.3 Configurar variables de entorno
+Crea el archivo `.env` en la raíz de `GuitarsLA-ts` (si es requerido por tu configuración):
+```env
+PORT=4002
+DATABASE_URL=postgresql://usuario:password@host:puerto/database_name?ssl=true
+```
+
+### 2.4 Iniciar el servidor de desarrollo
+```bash
+npm run dev
+```
+
+* **Acceso en el navegador:** [http://localhost:5173](http://localhost:5173)
+
+
 GuitarsLA — Desarrollado con React 19 + TypeScript 6 + Vite 8
