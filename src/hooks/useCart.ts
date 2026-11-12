@@ -1,12 +1,8 @@
 
-import { db } from "../data/db"
 import { useState, useEffect, useMemo } from "react"
 
 
 export const useCart = () => {
-    // funcionalidad
-
-
 
     const initialCart = () => {
         const localStorageCart = localStorage.getItem('cart');
@@ -20,7 +16,6 @@ export const useCart = () => {
         }
     }
 
-    const [data] = useState(db);
     const [cart, setCart] = useState(initialCart);
 
     useEffect(() => {
@@ -98,7 +93,6 @@ export const useCart = () => {
         // todo lo que se necesita retornar
         //metodos / variables
         cart,
-        data,
         addToCart,
         decreaseQuantity,
         increaseQuantity,
